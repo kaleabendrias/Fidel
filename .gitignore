@@ -1,0 +1,98 @@
+# ==========================================
+# FidelRAG .gitignore
+# ==========================================
+
+# Operating System & IDE
+.agents
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python Environment & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+plans
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Node & Frontend (React / Vite)
+node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+apps/web/dist/
+apps/web/dist-ssr/
+*.local
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Large Models & Quantized GGUF Weights
+# Note: Keep model weights out of git; download scripts provided in scripts/
+models/*.gguf
+models/*.bin
+models/*.safetensors
+models/cache/
+*.onnx
+
+# Data, Raw PDFs, & Copyrighted Curriculum Materials
+# Strictly observe copyright: Raw textbook PDFs and proprietary scans must not be checked in.
+data/raw/
+data/cache/
+data/downloads/
+data/temp/
+data/copyrighted/
+data/extracted/
+*.pdf
+
+# SQLite Databases & Runtime Artifacts
+# Allow tracked schema migrations and seed scripts, but ignore live runtime DBs
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-shm
+*.sqlite-wal
+!pipelines/packaging/templates/*.sql
+!tests/fixtures/*.sql
+
+# Logs & Benchmark Evaluation Artifacts
+logs/
+*.log
+evaluation/reports/runs/
+evaluation/reports/*.pdf
+tmp/
+temp/

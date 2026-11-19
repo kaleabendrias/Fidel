@@ -1,0 +1,90 @@
+{
+  "textbook": {
+    "id": "eth_sec_physics_g12_2023",
+    "title": "Grade 12 Physics Student Textbook",
+    "grade": 12,
+    "subject": "Physics",
+    "curriculum_edition": "New Curriculum 2023",
+    "source_url": "https://anrseb.gov.et/downloads/new-textbooks/",
+    "pdf_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "pages": [
+    {
+      "id": "eth_g12_phy_p034",
+      "textbook_id": "eth_sec_physics_g12_2023",
+      "pdf_page_index": 38,
+      "printed_page_label": "34",
+      "unit_number": 2,
+      "unit_title": "Two-dimensional Motion",
+      "mapping_status": "verified",
+      "extraction_status": "ok"
+    },
+    {
+      "id": "eth_g12_phy_p035",
+      "textbook_id": "eth_sec_physics_g12_2023",
+      "pdf_page_index": 39,
+      "printed_page_label": "35",
+      "unit_number": 2,
+      "unit_title": "Two-dimensional Motion",
+      "mapping_status": "verified",
+      "extraction_status": "ok"
+    }
+  ],
+  "passages": [
+    {
+      "id": "eth_g12_phy_u02_sec2_1_chunk01",
+      "textbook_id": "eth_sec_physics_g12_2023",
+      "unit_number": 2,
+      "section_number": "2.1",
+      "section_title": "Projectile Motion",
+      "content": "Projectile motion is the motion of an object thrown or projected into the air, subject to only the acceleration of gravity. The horizontal motion occurs with constant velocity, while the vertical motion experiences constant downward acceleration g.",
+      "content_type": "definition",
+      "token_estimate": 45,
+      "pages": [
+        {"page_id": "eth_g12_phy_p034", "page_order": 1}
+      ]
+    },
+    {
+      "id": "eth_g12_phy_u02_sec2_1_chunk02",
+      "textbook_id": "eth_sec_physics_g12_2023",
+      "unit_number": 2,
+      "section_number": "2.1",
+      "section_title": "Maximum Height and Range of Projectile",
+      "content": "For a projectile launched with initial velocity v0 at an angle theta to the horizontal, the maximum height H reached is given by H = (v0^2 * sin^2(theta)) / (2 * g). The horizontal range R is given by R = (v0^2 * sin(2 * theta)) / g. The calculation begins on page 34 and concludes on page 35.",
+      "content_type": "formula",
+      "token_estimate": 78,
+      "pages": [
+        {"page_id": "eth_g12_phy_p034", "page_order": 1},
+        {"page_id": "eth_g12_phy_p035", "page_order": 2}
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c_vector_components",
+      "canonical_name": "Vector Components",
+      "subject": "Physics",
+      "grade": 12,
+      "unit_number": 2,
+      "description": "Resolution of a two-dimensional vector into orthogonal x and y components."
+    },
+    {
+      "id": "c_projectile_motion",
+      "canonical_name": "Projectile Motion",
+      "subject": "Physics",
+      "grade": 12,
+      "unit_number": 2,
+      "description": "Two-dimensional motion under constant gravitational acceleration."
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel_u02_001",
+      "source_concept_id": "c_vector_components",
+      "target_concept_id": "c_projectile_motion",
+      "relation_type": "PREREQUISITE_OF",
+      "relationship_origin": "teacher_curated",
+      "review_status": "proposed"
+    }
+  ]
+}

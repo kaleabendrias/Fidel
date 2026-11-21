@@ -175,7 +175,7 @@ FidelRAG evaluates the contribution of hybrid and graph-based retrieval on resou
 ## 🔒 Content Licensing, Copyright & Ethics
 
 - **Textbook Content**: Educational textbooks produced by the Ministry of Education of Ethiopia are used under educational authorization. The software engine is decoupled from curriculum data; raw PDFs and proprietary SQLite content packages are not checked into Git.
-- **Student Privacy**: Designed for offline local Wi-Fi operation with no WAN connection. Zero student telemetry, no external font/script CDNs, and no cloud dependencies.
+- **Student Privacy**: Designed for offline local Wi-Fi operation with no WAN connection. Zero cloud telemetry, no external font/script CDNs, and no remote data collection. Local query logs in `runtime.sqlite` remain strictly on the host edge device for offline educator auditing and can be disabled or purged via configuration.
 - **Scientific Responsibility**: AI-generated native language text is treated as experimental and clearly flagged with source verification links to the underlying curriculum text.
 
 ---
